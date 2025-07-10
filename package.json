@@ -1,0 +1,26 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "test": "cucumber-js --format json:cucumber_report.json",
+  "scenario": "cucumber-js --format json:cucumber_report.json --tags",
+  "report": "node generate-report.mjs",
+  "test:report": "cucumber-js --format json:cucumber_report.json && node generate-report.mjs"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@wdio/allure-reporter": "^9.16.2",
+    "allure-commandline": "^2.34.1",
+    "allure-cucumberjs": "^3.3.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "open": "^10.1.2",
+    "playwright": "^1.53.2",
+    "shx": "^0.4.0"
+  }
+}

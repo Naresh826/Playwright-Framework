@@ -1,0 +1,97 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "load-a-page;verify-launch-company-website",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify Launch Company Website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1050885600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the page \"https://www.launchconsulting.com/\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11539152799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User should be on Launch Comapny website",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 923300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the title should be \"AI & Digital Transformation Consulting | Launch Consulting Group\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18844999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify Text in it",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 642827899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 623511999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@234",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "load-a-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Load a page",
+    "tags": [],
+    "uri": "features\\example.feature"
+  }
+]
