@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "load-a-page;load-example.com",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Load example.com",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the page \"https://example.com\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1892076200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the title should be \"Example Domain\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543725599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "load-a-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Load a page",
+    "tags": [],
+    "uri": "features\\example.feature"
+  }
+]
